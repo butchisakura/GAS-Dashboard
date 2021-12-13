@@ -10,15 +10,20 @@ iframe{
     height: 100%;
 }
 
+.wrapper{
+    padding: 10px;
+}
+
 .app-list {
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
 .app-list li {
     display: flex;
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     text-align: center;
     vertical-align: middle;
     flex-direction: row;
